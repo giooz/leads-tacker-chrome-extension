@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 1px lightseagreen;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: lightseagreen;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 4px;
+    border: 1px solid lightseagreen;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background-color: white;
+    color: lightseagreen
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    margin-top: 4px;
+}
+
+a {
+    color: lightseagreen;
+}
